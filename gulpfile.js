@@ -12,7 +12,14 @@ gulp.task('server', function() {
         server: {
             baseDir: "src"
         },
+<<<<<<< HEAD
         tunnel: true
+=======
+        tunnel: true,
+        host: 'localhost',
+        port: 9000,
+        logPrefix: "g_dogg"
+>>>>>>> main
     });
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
