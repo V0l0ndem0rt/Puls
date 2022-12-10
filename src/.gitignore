@@ -3,8 +3,6 @@
 # dependencies
 /node_modules
 /.jshintrc
-bootstrap-grid.min.css
-bootstrap-reboot.min.css
 
 # testing
 /coverage
